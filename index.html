@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <!-- Import the stylesheet and set the asset path -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@emdgroup-liquid/liquid/dist/css/liquid.css"
+    />
+    <meta
+      data-ld-asset-path="https://cdn.jsdelivr.net/npm/@emdgroup-liquid/liquid/dist/liquid/"
+    />
+    <script type="module">
+      // Import the loader
+      import { defineCustomElements } from "https://cdn.jsdelivr.net/npm/@emdgroup-liquid/liquid/dist/loader/index.js";
+
+      // Register the custom elements
+      defineCustomElements();
+    </script>
+  </head>
+  <body
+    style="
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 2rem 1.5rem;
+      overflow-x: hidden;
+    "
+  >
+    <!-- Add Liquid Components -->
+    <ld-bg-cells
+      style="position: absolute; top: 0; min-width: 55rem; z-index: -1"
+    ></ld-bg-cells>
+    <div style="max-width: 28rem">
+      <ld-typo
+        variant="b1"
+        style="color: var(--ld-col-vy); margin-bottom: 2rem"
+      >
+        Liquid Sandbox App
+      </ld-typo>
+      <ld-card style="width: 100%">
+        <ld-typo variant="h1" style="margin-bottom: 1rem">
+          Welcome to
+          <br />
+          Liquid Oxygen 👋
+        </ld-typo>
+        <ld-typo style="margin-bottom: 1rem">
+          This sandbox demonstrates <strong>Liquid Oxygen</strong> used directly
+          from the CDN. It does not require any bundler or library.
+        </ld-typo>
+        <ld-typo style="margin-bottom: 3rem">
+          That's how easy it is to include <strong>Liquid Oxygen</strong> in any
+          project.
+        </ld-typo>
+        <ld-button
+          mode="highlight"
+          size="lg"
+          href="https://liquid.merck.design"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ld-icon name="bulb"></ld-icon>
+          Learn more
+        </ld-button>
+      </ld-card>
+    </div>
+  </body>
+</html>

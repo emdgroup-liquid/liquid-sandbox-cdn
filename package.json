@@ -1,0 +1,9 @@
+{
+  "name": "liquid-sandbox-cdn",
+  "version": "1.0.0",
+  "description": "This simple sandbox demonstrates the use of Liquid Oxygen components dircetly from the CDN.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emdgroup-liquid/liquid-sandbox-cdn.git"
+  }
+}
